@@ -2,6 +2,11 @@
 
 Code release for  **[Universal Domain Adaptation(CVPR 2019)](https://youkaichao.github.io/files/cvpr2019/1628.pdf)** 
 
+## Updates in this fork
+- Updated requirements.txt
+- More info in data folder
+
+
 ## Requirements
 - python 3.6+
 - PyTorch 1.0
