@@ -5,6 +5,7 @@ Code release for  **[Universal Domain Adaptation(CVPR 2019)](https://youkaichao.
 ## Updates in this fork
 - Updated requirements.txt
 - More info in data folder
+- In main.py, log_dir value changed. Previously, log directory was named based on execution time. It has been modified to reflect source index and target index
 - In the train and test config files, in line 5 and 6, source and target domain index need to be mentioned. For Officehome dataset, Art: 0, Clipart: 1, Product: 2, Real_World: 3
 
 
