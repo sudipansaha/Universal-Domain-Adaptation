@@ -24,7 +24,7 @@ else:
 
 now = datetime.datetime.now().strftime('%b%d_%H-%M-%S')
 
-log_dir = f'{args.log.root_dir}/{now}'
+log_dir = f'{args.log.root_dir}/Source_{args.data.dataset.source}_Target_{args.data.dataset.target}'
 
 logger = SummaryWriter(log_dir)
 
